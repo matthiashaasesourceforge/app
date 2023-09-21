@@ -1,5 +1,7 @@
-FROM alpine:3.10.3
+#FROM alpine:3.10.3
+FROM debian:bullseye
 RUN mkdir -p /app
-ADD web /app/web
+COPY web /app/
+#ADD web /app/web
 WORKDIR /app
 ENTRYPOINT ["/app/web"]
