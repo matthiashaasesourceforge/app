@@ -4,7 +4,8 @@ Go web server that prints "Hello World!"
 
 ## Prerequsites
 
-$ cat /etc/os-release 
+$ cat /etc/os-release
+``` 
 PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
 NAME="Debian GNU/Linux"
 VERSION_ID="11"
@@ -14,6 +15,7 @@ ID=debian
 HOME_URL="https://www.debian.org/"
 SUPPORT_URL="https://www.debian.org/support"
 BUG_REPORT_URL="https://bugs.debian.org/"
+``` 
 
 ## Make & build
 
